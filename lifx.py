@@ -7,8 +7,8 @@ load_dotenv()
 
 TOKEN = os.getenv("TOKEN")
 lifx = LifxAPI(TOKEN)
-lights = lifx.get_lights()
 
-lifx.set_state(color="blue")
 scenes = lifx.get_scenes()
-lifx.set_scene(scenes["Work"])
+
+lifx.set_scene(scenes["Calm"])
+lifx.set_state(brightness=0.8)

@@ -1,2 +1,2 @@
 # lifxapi
-Lifx Z strip control script
+Python module to control Lifx-lights with Lifx developer API.
